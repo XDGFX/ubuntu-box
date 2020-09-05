@@ -4,4 +4,4 @@ build:
 	@docker build -t $(app_name) .
 
 run:
-	docker run --name $(app_name) -t -i $(app_name)
+	docker run -t -i $(app_name)
